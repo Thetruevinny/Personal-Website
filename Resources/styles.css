@@ -32,10 +32,45 @@ summary {
 }
 
 summary img {
-    width: 40%;
+    width: 30%;
     flex-shrink: 1;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     padding: 1rem 1rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+}
+
+/* Projects */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.project-list {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 1rem 1rem;
+}
+
+.project img {
+    object-fit: contain;
+    height: auto;
+    flex-shrink: 1;
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
