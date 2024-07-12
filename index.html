@@ -10,8 +10,8 @@
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="skills">Skills</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <hr>
@@ -33,7 +33,7 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <div class="project-list">
+            <div class="project-list-1" id="first">
                 <div class="project">
                     <img src="./Resources/Photos/ML.jpeg"/>
                     <h3>Predicting Zodiac Signs</h3>
@@ -46,7 +46,16 @@
                     <img src="./Resources/Photos/movie.png" />
                     <h3>Movie Recommendation System</h3>
                 </div>
+                <button id="next">></button>
             </div>
+            <div class="project-list-2" id = 'second'>
+                <button id="back"><</button>
+                <div class="project">
+                    <img src="./Resources/Photos/movie_db.png"/>
+                    <h3>Movie Database</h3>
+                </div>
+            </div>
+            <script src="./Resources/main.js"></script>
         </section>
         <section id="skills">
             <h2>Skills</h2>
@@ -63,7 +72,7 @@
         </section>
         <hr>
         <footer>
-            <p>Contact: abhik.vinod14@gmail.com</p>
+            <p id="contact">Contact: abhik.vinod14@gmail.com</p>
         </footer>
     </head>
 </html>

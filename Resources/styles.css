@@ -54,9 +54,10 @@ summary img {
     width: 100%;
 }
 
-.project-list {
+.project-list-1 {
     display: inline-flex;
     justify-content: center;
+    margin-left: 1rem;
 }
 
 .project {
@@ -73,6 +74,31 @@ summary img {
     flex-shrink: 1;
     width: 100%;
     aspect-ratio: 1 / 1;
+}
+
+button {
+    font-size: 4rem;
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+button:hover {
+    color: blue;
+}
+
+.project-list-2 {
+    display: none;
+    justify-content: center;
+    padding-right: 4.6rem;
+}
+
+#next {
+    margin-left: 3rem;
+}
+
+#back {
+    margin-right: 3rem;
 }
 
 /* Skills */
