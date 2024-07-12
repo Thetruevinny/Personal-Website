@@ -123,3 +123,15 @@ button:hover {
     object-fit: contain;
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 420px) {
+    button {
+        display: none;
+    }
+
+    .project-list-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
